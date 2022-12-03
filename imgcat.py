@@ -1,7 +1,7 @@
 import os, cv2, sys
 
 SIZE = float(sys.argv[2])
-BACKGROUND_PATH = 'void.jpg'
+BACKGROUND_PATH = sys.argv[3]
 OUTPUT_FILE = sys.argv[1]
 
 class Planche:
